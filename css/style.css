@@ -5,39 +5,63 @@ body {
 .container {
     padding-left: 4%;
     padding-right: 4%;
-    margin-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+.dark {
+    background-color: #192539;
+    color: #fff;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+a:hover {
+    color: #4A86E8;
 }
 
 h1 {
-    color: #4A86E8;
-    background-color: #f7f7f7;
+    color: #ff0089;
+    background-color: #192539;
     font-size: 3em;
     text-align: center;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .description {
     text-align: justify;
     line-height: 1.3;
-    padding: 2em;
+    padding: 5em 2em;
     width: 70%;
     margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.description:before {
+    content: '';
+    background-image: url('../speaker.jpg');
 }
 
 ol {
     margin-left: 1em;
+    font-size: 1.1em;
 }
 
 ol li {
     list-style-type: decimal;
-    line-height: 1.2;
+    line-height: 1.3;
+    margin-bottom: 0.5em;
 }
 
 .obs:before {
@@ -47,8 +71,11 @@ ol li {
 }
 
 .obs {
-    line-height: 1.2;
+    line-height: 1.3;
+    padding-top: 1em;
     margin-top: 1em;
+    border-top: 1px dashed #fff;
+    font-size: 1.1em;
 }
 
 #vontade-palestrar ~ p,
@@ -61,8 +88,21 @@ input {
     left: -9999px;
 }
 
+.questions {
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.questions p {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
 .questions div {
     display: none;
+    text-align: center;
+    margin-top: 3em;
 }
 
 .questions div#vontade-palestrar {
@@ -88,8 +128,32 @@ input {
 .questions label {
     padding: 1em;
     border-radius: 10px;
-    color: #fff;
+    color: #192539;
     margin: 1em;
     display: inline-block;
     cursor: pointer;
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+.team span {
+    text-align: center;
+    display: block;
+    font-size: 1.1em;
 }
