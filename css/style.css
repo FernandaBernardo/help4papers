@@ -117,6 +117,16 @@ input {
     background-color: #ffffff;
 }
 
+.questions div a {
+	color: #192539;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.questions div a:hover {
+	color: #4A86E8;
+}
+
 .questions div#vontade-palestrar {
 	display: block;
 }
