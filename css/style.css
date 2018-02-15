@@ -111,8 +111,8 @@ input {
 	text-align: center;
 	margin-top: 3em;
 	border: 1px solid #fff;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 2em 1em;
+    word-break: break-word;
     border-radius: 10px;
     background-color: #ffffff;
 }
