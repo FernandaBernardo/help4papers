@@ -9,7 +9,7 @@ body {
 }
 
 .dark {
-	background-color: #192539;
+	background-color: #474853;
 	color: #fff;
 }
 
@@ -23,8 +23,8 @@ a:hover {
 }
 
 h1 {
-	color: #ff0089;
-	background-color: #192539;
+	color: #29C3A6;
+	background-color: #474853;
 	font-size: 3em;
 	text-align: center;
 	padding-top: 2.5em;
@@ -103,7 +103,7 @@ input {
 	text-align: center;
 	font-size: 1.3em;
 	margin-bottom: 1em;
-	color: #192539;
+	color: #474853;
 }
 
 .questions div {
@@ -118,7 +118,7 @@ input {
 }
 
 .questions div a {
-	color: #192539;
+	color: #474853;
 	text-align: center;
 	font-size: 1.3rem;
 }
@@ -132,7 +132,7 @@ input {
 }
 
 .questions label[for$=sim] {
-	background-color: #2BDFC6;
+	background-color: #2bdfc6;
 }
 
 .questions label[for$=sim]:hover {
@@ -150,7 +150,7 @@ input {
 .questions label {
 	padding: 1em;
 	border-radius: 10px;
-	color: #192539;
+	color: #474853;
 	margin: 1em;
 	display: inline-block;
 	cursor: pointer;
