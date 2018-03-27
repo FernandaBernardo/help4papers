@@ -184,3 +184,31 @@ input {
 	display: block;
 	font-size: 1.1em;
 }
+
+.apoio li {
+	display: inline-block;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.apoio li a {
+	text-align: center;
+	display: inline-block;
+	font-size: 1.1em;
+}
+
+.apoio li img {
+	display: block;
+	margin-top: 1em;
+	width: 128px;
+}
+
+.apoio li a:hover {
+	opacity: 0.8;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	padding: 1em; 
+}
