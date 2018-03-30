@@ -23,12 +23,16 @@ a:hover {
 }
 
 h1 {
-	color: #29C3A6;
+	color: #474853;
 	font-size: 3em;
 	text-align: center;
 	padding-top: 5rem;
 	padding-bottom: 1em;
 	font-weight: bold;
+}
+
+header h1 span {
+	color: #29C3A6;
 }
 
 header h1:before {
