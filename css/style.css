@@ -209,6 +209,10 @@ input {
 	align-content: space-around;
 }
 
+.apoio li {
+	margin: 2em;
+}
+
 .apoio li a {
 	text-align: center;
 	display: inline-block;
@@ -218,7 +222,8 @@ input {
 .apoio li img {
 	display: block;
 	margin-bottom: 1em;
-	width: 128px;
+	max-height: 128px;
+	max-width: 128px;
 }
 
 .apoio li a:hover {
@@ -260,13 +265,5 @@ footer p {
 
 	.questions {
 		padding-top: 0;
-	}
-
-	.apoio {
-		flex-direction: column;
-	}
-
-	.apoio li {
-		margin-bottom: 2rem;
 	}
 }
