@@ -211,6 +211,7 @@ input {
 
 .apoio li {
 	margin: 2em;
+	align-self: flex-end;
 }
 
 .apoio li a {
