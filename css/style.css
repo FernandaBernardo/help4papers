@@ -48,6 +48,10 @@ header h1:before {
 	margin-right: 1em;
 }
 
+header nav a {
+	color: #29C3A6;
+}
+
 h2 {
 	font-size: 1.7em;
 	font-weight: bold;
