@@ -235,6 +235,20 @@ input {
 	margin-top: 2rem;
 }
 
+.social ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-around;
+}
+
+.social ul img {
+	display: block;
+	margin: 0em auto 1em;
+	text-align: center;
+}
+
 footer p {
 	color: #fff;
 	text-align: center;
