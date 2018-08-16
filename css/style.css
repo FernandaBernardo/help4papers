@@ -111,7 +111,7 @@ input {
 .questions .description {
 	text-align: left;
 	font-size: 1.1em;
-	line-height: 1.2;
+	line-height: 1.3;
 	color: #fff;
 }
 
@@ -233,6 +233,12 @@ input {
 
 .apoie {
 	margin-top: 2rem;
+}
+
+.news p {
+	text-align: left;
+    font-size: 1.1em;
+    line-height: 1.3;
 }
 
 .social ul {
