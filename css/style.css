@@ -31,6 +31,35 @@ h1 {
 	font-weight: bold;
 }
 
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	margin: 1.5em;
+}
+
+.menu a {
+	align-self: center;
+	font-size: 1.2em;
+	padding: 1em;
+	text-decoration: none;
+	color: #474853;
+	margin-left: 1em;
+}
+
+.menu a.active {
+	background-color: #29C3A6;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.menu a:hover {
+	color: #29C3A6;
+}
+
+.menu a.active:hover {
+	color: #474853;
+}
+
 header h1 span {
 	color: #29C3A6;
 }
@@ -255,6 +284,10 @@ input {
 	text-align: center;
 }
 
+.social ul img:hover {
+	opacity: 0.8;
+}
+
 footer p {
 	color: #fff;
 	text-align: center;
@@ -291,4 +324,83 @@ footer p {
 	.questions {
 		padding-top: 0;
 	}
+}
+
+
+/* DICA DE PALESTRANTE */
+.menu .logo {
+	text-indent: -9999px;
+	display: inline-block;
+	background-image: url('../img/logo.png');
+	width: 60px;
+	height: 42px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+	margin-right: 1em;
+	margin-left: 0;
+}
+
+.menu .logo:hover {
+	opacity: 0.8;
+}
+
+.menu .logo + a {
+	margin-left: auto;
+}
+
+.speakers {
+	display: flex;
+	justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.speakers article {
+	padding: 1em;
+	margin: 1em;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 1px #a1a4bd;
+	flex: 1 1 40%;
+}
+
+.speakers article > * {
+	text-decoration: none;
+	color: #474853;
+}
+
+.speakers article:hover {
+	opacity: 0.8;
+	color: #474853;
+}
+
+.speakers article h3 {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.speakers article h3 a:hover {
+	color: #29C3A6;
+}
+
+.speakers article img {
+	width: 100%;
+	max-width: 500px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.speakers article blockquote {
+	text-align: justify;
+}
+
+.speakers article blockquote:before, .speakers article blockquote:after {
+	content: '"';
+	display: inline-block;
+	font-size: 110%;
+	font-style: italic;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 }
