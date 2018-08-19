@@ -278,6 +278,11 @@ input {
 	align-content: space-around;
 }
 
+.social ul li {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
 .social ul img {
 	display: block;
 	margin: 0em auto 1em;
@@ -323,6 +328,16 @@ footer p {
 
 	.questions {
 		padding-top: 0;
+	}
+
+	.social ul img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.social ul li {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
 	}
 }
 
@@ -403,4 +418,27 @@ footer p {
 	font-style: italic;
 	padding-left: 0.2em;
 	padding-right: 0.2em;
+}
+
+@media(max-width: 600px) {
+	.speakers {
+		flex-direction: column;
+	}
+
+	.speakers article {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.menu {
+		flex-direction: column;
+	}
+
+	.menu a {
+		margin: 0.5em 0;
+	}
+
+	.menu .logo + a {
+		margin-left: 0;
+	}
 }
