@@ -118,11 +118,6 @@ ol li {
 	font-size: 1.1em;
 }
 
-#vontade-palestrar ~ p,
-label[for^=vontade-palestrar] + label ~ label {
-	display: none;
-}
-
 input {
 	position: absolute;
 	left: -9999px;
@@ -151,59 +146,23 @@ input {
 	color: #474853;
 }
 
-.questions div {
-	display: none;
+.questions a {
 	text-align: center;
-	margin-top: 3em;
-	border: 1px solid #fff;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 1.2em;
+	color: #29C3A6;
+	margin-top: 2em;
     padding: 2em 1em;
-    word-break: break-word;
     border-radius: 10px;
     background-color: #ffffff;
 }
 
-.questions div a {
+.questions a:hover {
+	background-color: #29C3A6;
 	color: #474853;
-	text-align: center;
-	font-size: 1.3rem;
-}
-
-.questions div a:hover {
-	color: #4A86E8;
-}
-
-.questions div#vontade-palestrar {
-	display: block;
-}
-
-.questions label[for$=sim] {
-	background-color: #2bdfc6;
-}
-
-.questions label[for$=sim]:hover {
-	background-color: #15c1a7;
-}
-
-.questions label[for$=nao] {
-	background-color: #F37B7C;
-}
-
-.questions label[for$=nao]:hover {
-	background-color: #e06969;
-}
-
-.questions label {
-	padding: 1em;
-	border-radius: 10px;
-	color: #474853;
-	margin: 1em;
-	display: inline-block;
-	cursor: pointer;
-	width: 30%;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 1.1em;
 }
 
 .team {
@@ -403,8 +362,8 @@ footer p {
 .speakers article img {
 	width: 100%;
 	max-width: 500px;
-	margin-bottom: 1em;
-	margin-top: 1em;
+	margin: 1em auto;
+    display: block;
 }
 
 .speakers article blockquote {
