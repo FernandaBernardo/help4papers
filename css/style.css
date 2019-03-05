@@ -82,6 +82,19 @@ h2 {
 	font-weight: bold;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	line-height: 1.5;
+}
+
+h2.warning {
+	padding-bottom: 0;
+}
+
+header .slogan {
+	text-align: center;
+    font-size: 1.5em;
+	margin-bottom: 3em;
+	color: #474853;
+	font-weight: bold;
 }
 
 header .description {
@@ -136,7 +149,7 @@ input {
 	text-align: left;
 	font-size: 1.1em;
 	line-height: 1.3;
-	color: #fff;
+	color: #474853;
 }
 
 .questions p {
@@ -154,6 +167,7 @@ input {
 	text-transform: uppercase;
     font-size: 1.2em;
 	color: #29C3A6;
+	border: 3px solid #474853;
 	margin-top: 2em;
     padding: 2em 1em;
     border-radius: 10px;
@@ -211,8 +225,8 @@ input {
 .apoio li img {
 	display: block;
 	margin-bottom: 1em;
-	max-height: 128px;
-	max-width: 128px;
+	max-height: 100px;
+	max-width: 100px;
 }
 
 .apoio li a:hover {
@@ -226,7 +240,7 @@ input {
 .news p {
 	text-align: left;
     font-size: 1.1em;
-    line-height: 1.3;
+	line-height: 1.5;
 }
 
 .social ul {
@@ -368,6 +382,7 @@ footer p {
 
 .speakers article blockquote {
 	text-align: justify;
+	line-height: 1.3;
 }
 
 .speakers article blockquote:before, .speakers article blockquote:after {
@@ -377,6 +392,17 @@ footer p {
 	font-style: italic;
 	padding-left: 0.2em;
 	padding-right: 0.2em;
+}
+
+.videos {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos iframe {
+	margin-bottom: 2em;
 }
 
 @media(max-width: 600px) {
