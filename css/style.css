@@ -136,47 +136,20 @@ input {
 	left: -9999px;
 }
 
-.questions {
-	padding-top: 3em;
-	padding-bottom: 5em;
-}
-
-.questions h2 {
-	padding-bottom: 1em;
-}
-
-.questions .description {
-	text-align: left;
-	font-size: 1.1em;
-	line-height: 1.3;
-	color: #474853;
-}
-
-.questions p {
-	text-align: center;
-	font-size: 1.3em;
-	margin-bottom: 1em;
-	color: #474853;
-}
-
-.questions a {
-	text-align: center;
+.meetup img {
 	display: block;
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-    font-size: 1.2em;
-	color: #29C3A6;
-	border: 3px solid #474853;
-	margin-top: 2em;
-    padding: 2em 1em;
-    border-radius: 10px;
-    background-color: #ffffff;
+	margin: 1em auto;
 }
 
-.questions a:hover {
-	background-color: #29C3A6;
-	color: #474853;
+.meetup p, .meetup a {
+	line-height: 1.7;
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+.tips a {
+	line-height: 2;
+	font-size: 1.2em;
 }
 
 .team {
@@ -201,40 +174,6 @@ input {
 	text-align: center;
 	display: block;
 	font-size: 1.1em;
-}
-
-.apoio {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	align-items: center;
-	align-content: space-around;
-}
-
-.apoio li {
-	margin: 2em;
-	align-self: flex-end;
-}
-
-.apoio li a {
-	text-align: center;
-	display: inline-block;
-	font-size: 1.1em;
-}
-
-.apoio li img {
-	display: block;
-	margin-bottom: 1em;
-	max-height: 100px;
-	max-width: 100px;
-}
-
-.apoio li a:hover {
-	opacity: 0.8;
-}
-
-.apoie {
-	margin-top: 2rem;
 }
 
 .news p {
